@@ -9,4 +9,6 @@ if __name__ == "__main__":
     else:
         print(f"{count} arguments.")
         for num in range(count):
+            if num == 0:
+                continue
             print(f"{num}: {sys.argv[num]}")
