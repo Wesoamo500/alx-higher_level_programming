@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
+
 def search_replace(my_list, search, replace):
     new_list = []
-    for pos in range(len(my_list) - 1):
-        if my_list[pos] == search:
-            new_list[pos] = replace
+    for element in my_list:
+        if element == search:
+            new_list.append(replace)
         else:
-            new_list[pos] = my_list[pos]
+            new_list.append(element)
     return new_list
