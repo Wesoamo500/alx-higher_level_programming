@@ -1,1 +1,1 @@
-This repo contains set of project tasks for python
+SQL more queries
